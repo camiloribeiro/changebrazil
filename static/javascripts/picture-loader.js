@@ -14,9 +14,6 @@ $(function() {
         picture.className = 'picture';
         $('#picture').html(picture);
 
-        picture.onload = function () {
-          $('.controls label.active input')[0].click();
-        };
     };
 
     reader.readAsDataURL(file);
@@ -67,7 +64,6 @@ $(function() {
     }
 
     handleFileSelect(evt);
-    $('div.color-picker').show();
     $('div.generate').show();
   });
 

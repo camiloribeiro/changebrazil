@@ -18,30 +18,19 @@
           = session[:success]
       - session.clear
       .header
-        %h1 Change Brazil!
+        %h1 Muda Brasil!
         %iframe.flickr-slideshow{ :src => "http://www.flickr.com/slideShow/index.gne?user_id=97566492@N02", :frameBorder => 0, :scrolling => 'no' }
         .call-to-action
           %p
-            Em Junho de 2013 o Brasil foi as ruas e iniciou uma onda de protestos contra a situação em que os brasileiros são submetidos todos os dias:
-            Transporte público caro, ineficience e super lotado;
-            Filas nos hospitais públicos, onde médicos mal remunerados usam equipamentos precários;
-            Violência sem precedentes aterrorizando a população;
-            Escolas públicas caindo aos pedaços e professores mal remunerados;
-
-            Tudo isso aliado a um governo corrupto sem punição, uma das maiores taxas tributárias do mundo, gastos excessivos com estádios de futebol para a copa do mundo. 
-            %a{ :href => 'http://www.changebrazil.com.br/', :target => '_blank' } campaign
-            took off - within hours Iranians sent beautiful images back and messages have been sent from all over the world.
-            O gigante acordou, a população foi as ruas e essas são as imagens da revolução brasileira:
+            Transformamos o que eram centavos em milhões.
+            Milhões de olhares, milhões de vozes, Milhões de sonhos e um só movimento: mostrar que o Brasil é grande por sua gente, e nós temos que ser ouvidos. Vem pra rua torcer pelo Brasil de verdade. Nunca foi por 20 centavos, é pelo nosso direito civil. 
+            Estamos fazendo história. Estamos em todos os lugares, em cada hospital sem vaga, em cada criança sem escola, em cada comunidade de periferia que sofre abuso, em cada viagem em um transporte caro, sucateado e ineficiente.
+            Temos a maior arma contra a repressão e o autoritarismo: a tecnologia. 
+            Cada foto constrói a narrativa do que estamos vivendo e das mudanças que vamos promover.
+            O Mundo está no Brasil, na sua gente, na sua luta, na sua ânsia por respeito, e tudo isto visto pelo olhar de cada um de nós.
           %p.highlight
             Adicione uma foto sua em um protesto para mostrar ao mundo que o Brasil pode mudar!
       .image-editor= yield
-      .editor-instructions
-        %p
-          Create and share your photo using the tool from
-          Junte-se a milhares de brasileiros e assine a petição contra a 
-          %a{ :href => 'http://j.mp/GAxy0I', :target => '_blank' } petition
-          to say no to war.
-        %iframe.video{ :width => 500, :height => 315, :src => "http://www.youtube.com/embed/AIBYEXLGdSg", :frameborder => 0, :allowfullscreen => 'yes' }
     :javascript
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-41783508-1']);
